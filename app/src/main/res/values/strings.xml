@@ -5,4 +5,10 @@
     <string name="kaboom">Kaboom!</string>
     <string name="innerClasses">Inner Classes</string>
     <string name="innerAsyncTask">InnerAsyncTask</string>
+    <string name="leaks">Leaks</string>
+    <string name="staticActivity">Static activity</string>
+    <string name="staticView">Static view</string>
+    <string name="staticInflater">Static Layout Inflater</string>
+    <string name="staticContext">Static Context</string>
+    <string name="singleton">Singleton</string>
 </resources>
