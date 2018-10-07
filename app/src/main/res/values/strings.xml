@@ -3,4 +3,6 @@
     <string name="closeable">Closeable</string>
     <string name="fileSteamLeak">FileStream Leak</string>
     <string name="kaboom">Kaboom!</string>
+    <string name="innerClasses">Inner Classes</string>
+    <string name="innerAsyncTask">InnerAsyncTask</string>
 </resources>
