@@ -11,4 +11,7 @@
     <string name="staticInflater">Static Layout Inflater</string>
     <string name="staticContext">Static Context</string>
     <string name="singleton">Singleton</string>
+    <string name="another_text">Another text</string>
+    <string name="anonymousRunnable">Anonymous Runnable</string>
+    <string name="viewModel">ViewModel</string>
 </resources>
