@@ -10,6 +10,12 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <TextView
+            android:id="@+id/someTextLabel"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <Button
             android:id="@+id/staticActivityBtn"
             style="@style/Widget.AppCompat.Button.Colored"
@@ -51,6 +57,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/viewModel"/>
+
+        <Button
+            android:id="@+id/locationBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startLocationUpdates"/>
+
+        <Button
+            android:id="@+id/observableBtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startObservable"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/myRecyclerView"

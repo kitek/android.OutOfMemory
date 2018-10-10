@@ -14,4 +14,6 @@
     <string name="another_text">Another text</string>
     <string name="anonymousRunnable">Anonymous Runnable</string>
     <string name="viewModel">ViewModel</string>
+    <string name="startLocationUpdates">Start location updates</string>
+    <string name="startObservable">Start Observable</string>
 </resources>
