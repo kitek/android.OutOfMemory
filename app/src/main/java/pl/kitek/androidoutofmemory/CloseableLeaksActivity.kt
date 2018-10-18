@@ -7,7 +7,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_closeable.*
 
-
 class CloseableLeaksActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,7 +45,6 @@ class CloseableLeaksActivity : AppCompatActivity(), View.OnClickListener {
         val stream = openFileOutput("leakedFile.txt", Context.MODE_PRIVATE)
         stream.write(message.toByteArray())
     }
-
 
     private fun closeableFileLeak() {
 // LEAK

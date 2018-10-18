@@ -16,4 +16,5 @@
     <string name="viewModel">ViewModel</string>
     <string name="startLocationUpdates">Start location updates</string>
     <string name="startObservable">Start Observable</string>
+    <string name="image">Image</string>
 </resources>

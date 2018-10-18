@@ -29,4 +29,11 @@
         android:layout_height="wrap_content"
         android:text="@string/leaks"/>
 
+    <Button
+        android:id="@+id/imagesBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/image"/>
+
 </LinearLayout>

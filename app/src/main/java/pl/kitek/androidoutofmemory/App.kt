@@ -23,4 +23,11 @@ class App : Application() {
             Timber.plant(Timber.DebugTree())
         }
     }
+
+    override fun onTrimMemory(level: Int) {
+        super.onTrimMemory(level)
+        
+        Timber.tag("kitek").d("onTrimMemory: $level ")
+
+    }
 }

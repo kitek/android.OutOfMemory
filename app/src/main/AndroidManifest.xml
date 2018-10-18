@@ -40,6 +40,11 @@
             android:label="@string/leaks"
             android:parentActivityName=".MainActivity"/>
 
+        <activity
+            android:name=".ImageActivity"
+            android:label="@string/image"
+            android:parentActivityName=".ImageActivity"/>
+
     </application>
 
 </manifest>

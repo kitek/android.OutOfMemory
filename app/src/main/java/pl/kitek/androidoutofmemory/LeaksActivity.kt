@@ -109,7 +109,6 @@ class LeaksActivity : AppCompatActivity(), View.OnClickListener {
         Toast.makeText(this, R.string.kaboom, Toast.LENGTH_SHORT).show()
     }
 
-
     private fun staticActivityLeak() {
         activity = this
     }
